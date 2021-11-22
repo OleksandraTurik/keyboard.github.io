@@ -1,7 +1,7 @@
 {
   "name": "keyboard.github.io",
   "version": "0.1.1",
-  "hamepage": "https://oleksandraturik.github.io/keyboard.github.io",
+  "hamepage": "./",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
