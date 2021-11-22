@@ -6,7 +6,7 @@ import { addButton } from "../redux/action/addPreset.action";
 const Keys = ({ id, text, color, buttons, selected, addButton }) => {
     useEffect(() => {
         persistPresetss();
-      }, [persistPresetss]);
+      });
     
     const handleButtonClick = e => {
         const buttonId = e.target.id;
