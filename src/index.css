@@ -1,0 +1,487 @@
+*{
+  padding:0;
+  margin:0
+}
+body {
+ background-color: #241d33;
+}
+#keyboard{
+  width:1044px;
+  height:315px;
+  margin:10px auto;
+  border:2px solid #333;
+  border-radius:10px;
+  background-color:#292929;
+  position:relative
+    
+}
+
+.clear{
+  clear:both
+}
+
+.buttonFace{
+  width:34px;
+  height:29px;
+  margin:1px auto;
+  border-radius:3px;
+  text-align:left;
+  background-color:#202020;
+  font-size:12px;
+  text-indent:6px;
+  font-weight:700;
+  padding-top:5px
+}
+.buttonFace:active,.buttonFacex15:active,.buttonFacePlus:active,.buttonFacex175:active,.buttonFacex275:active,.buttonFacex125:active,.buttonFacex2:active,.buttonFaceSpace:active,.buttonFacex225:active,.buttonFaceEnter:active,
+.buttonFace.pressed,.buttonFacex15.pressed,.buttonFacePlus.pressed,.buttonFacex175.pressed,.buttonFacex275.pressed,.buttonFacex125.pressed,.buttonFacex2.pressed,.buttonFaceSpace.pressed,.buttonFacex225.pressed,.buttonFaceEnter.pressed {
+ transform: scale(0.96, 0.96) translate(0, 3px);
+}
+
+.buttonFace p{
+  margin-top:-4px;
+  font-size: 10px;
+  text-indent: 3px;
+  margin-bottom:6px
+}
+
+.buttonFacePlus{
+  width:34px;
+  height:79px;
+  margin:1px auto;
+  border-radius:3px;
+  text-indent:6px;
+  line-height:79px;
+  background-color:#202020
+}
+
+.buttonFacex2{
+  width:77px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  font-size:13px;
+  text-indent:6px;
+  background-color:#202020
+}
+
+.buttonFacex15{
+  width:58px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  background-color:#202020;
+  text-indent:6px;
+  font-size:13px
+}
+
+.buttonFacex15 p{
+  font-size:12px;
+  margin-bottom:6px
+}
+
+.buttonFacex175{
+  width:69px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  line-height:30px;
+  background-color:#202020;
+  text-indent:6px;
+  font-size:13px
+}
+
+.buttonFacex125{
+  width:47px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  text-indent:6px;
+  line-height:30px;
+  font-size:13px;
+  background-color:#202020;
+  column-count: 2;
+}
+
+.buttonFacex225{
+  width:91px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  line-height:30px;
+  background-color:#202020;
+  font-size:13px;
+  text-indent:6px
+}
+
+.buttonFacex275{
+  width:113px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  line-height:30px;
+  text-indent:6px;
+  font-size:13px;
+  background-color:#202020
+}
+
+.buttonFaceEnter{
+  width:90px;
+  height:34px;
+  margin:1px auto;
+  border-radius:3px;
+  text-indent:6px;
+  background-color:#202020
+}
+
+.buttonFaceEnter p{
+  font-size:13px;
+  margin-bottom:2px
+}
+
+.buttonFaceSpace{
+  width:260px;
+  height:29px;
+  margin:1px auto;
+  border-radius:3px;
+  text-align:center;
+  line-height:30px;
+  background-color:#202020;
+  position:relative;
+  padding-top:5px
+}
+
+.typeR1{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:12px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR2{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:22px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR2x2{
+  width:87px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:22px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR3x15{
+  width:66px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-left:12px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR3{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR3Plus{
+  width:42px;
+  height:87px;
+  border:1px solid #333;
+  margin-top:1px;
+  right:13px;
+  float:left;
+  background-color:#000;
+  position:absolute
+}
+
+.typeR4x175{
+  width:77px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-left:12px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR4{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR5x225{
+  width:99px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-left:12px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR5{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR5x275{
+  width:121px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR5Plus{
+  width:42px;
+  height:87px;
+  border:1px solid #333;
+  margin-top:1px;
+  right:13px;
+  float:left;
+  background-color:#000;
+  position:absolute
+}
+
+.typeR6x125{
+  width:55px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.space{
+  width:267px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR6{
+  width:42px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.typeR6x2{
+  width:87px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+.enterKey{
+  width:98px;
+  height:42px;
+  border:1px solid #333;
+  margin-top:1px;
+  margin-right:1px;
+  float:left;
+  background-color:#000
+}
+
+#signalLed{
+  width:150px;
+  height:50px;
+  position:absolute;
+  top:10px;
+  right:30px
+}
+
+.led{
+  width:20px;
+  height:10px;
+  background-color:#000;
+  margin:20px 15px 0;
+  float:left
+}
+
+.button1{
+  margin-left:12px;
+}
+
+.window1{
+  width:8px;
+  height:6px;
+  float:left;
+  margin:1px;
+}
+
+.window2{
+  width:8px;
+  height:6px;
+  float:left;
+  margin:1px;
+}
+.spaceLed{
+  width:80px;
+  height:1px;
+  margin:auto;
+}
+
+.f,.j,.so5{
+ height: 2px;
+ width: 10px;
+ border-top: 1px solid #2c2c2c;
+ border-radius: 5px;
+ left: 50%;
+ bottom: -5px;
+ margin:-7px 0 0 16px;
+ background: #0f0f0f;
+}
+
+.typeR5.button14 {
+  margin-left:57px;
+}
+
+.typeR5.button18 {
+  margin-left:61px;
+}
+
+.typeR6x2.button16 {
+  margin-left:17px;
+}
+
+.typeR6.button13 {
+  margin-left:12px;
+}
+
+.typeR4.button18 {
+  margin-left: 164px;
+}
+
+.typeR3.button15,
+.typeR2.button15,
+.typeR1.button15 {
+  margin-left:13px;
+}
+
+.typeR3x15.button14 {
+  margin-left:0px; 
+  width:64px;
+}
+
+.typeR3.button18,
+.typeR2.button18 {
+  margin-left: 16px;
+}
+
+.typeR1.button3 {
+  margin-left:44px
+}
+
+.typeR1.button7 {
+  margin-left:24px
+}
+
+.typeR1.button10 {
+  margin-right:24px;
+}
+
+.buttonFacePlus {
+  margin-right: 1px;
+    font-size: 11px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+}
+
+#preset {
+  width: 300px;
+  height: 100vh;
+  background-color: #000;
+  padding: 50px;
+}
+
+#preset input#namePreset {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+#preset .addingBlock {
+  display: flex;
+}
+
+#preset button {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#preset label {
+  color: #fff;
+}
+
+.listPresent ul {
+  list-style: none;
+}
+
+.listPresent ul li {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+button.submitForm {
+  margin-bottom: 20px;
+}
+
+form .flex {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+form .flex label {
+  min-width: 80px;
+}
